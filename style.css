@@ -1,0 +1,121 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+/* CORPO TODO */
+body {
+    font-family: 'Cinzel', serif;
+    background-image: url(./fundo.png);
+    background-color: #ffe6c6;
+    display: flex;
+    color: #A77636;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 326px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+}
+
+/* LOGO */
+.container figure {
+    margin-bottom: 20px;
+}
+
+.container span {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #A77636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container figure span img {
+    width: 360px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.container figure figcaption {
+    font-size: 25px;
+    margin: 15px 0 0;
+}
+
+.container figure figcaption .slogan {
+    font-size: 18px;
+    margin: 5px 0 0;
+}
+
+/* LINKS */
+
+.container .links {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .links a {
+    height: 50px;
+    line-height: 40px;
+    margin: 0 5px 16px;
+    color: #A77636;
+
+    border: 5px solid #A77636;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-weight: 800;
+}
+
+.container .links a:hover {
+    color: #643901;
+}
+
+.container .links a:active {
+    color: #A77636
+}
+
+.container .links a:visited {
+    color: #A77636
+}
+
+.container .net {
+    width: 100%;
+    margin: 20px 0 0;
+    padding: 10px 50px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .net img {
+    width: 24px;
+    margin: 0 5px;
+}
+
+.container .net img:active {
+    color: #A77636
+}
+
+.container .net img:hover {
+    color: #A77636
+}
+
+
+
+
