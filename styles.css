@@ -77,9 +77,11 @@ header h1 {
 }
 
 footer {
+    margin-top: 50px;
     height: 100px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     color: #A77636;
     font-style: italic;
